@@ -1,0 +1,39 @@
+{
+	"brands": [
+		{
+			"title": "American Express",
+			"path": "amex",
+			"source": "/icons/amex.svg"
+		},
+		{
+			"title": "Apple Pay",
+			"path": "applepay",
+			"source": "/icons/applepay.svg"
+		},
+		{
+			"title": "Diner's Club",
+			"path": "dinersclub",
+			"source": "/icons/dinersclub.svg"
+		},
+		{
+			"title": "Master Card",
+			"path": "mastercard",
+			"source": "/icons/mastercard.svg"
+		},
+		{
+			"title": "PayPal",
+			"path": "paypal",
+			"source": "/icons/paypal.svg"
+		},
+		{
+			"title": "Stripe",
+			"path": "stripe",
+			"source": "/icons/stripe.svg"
+		},
+		{
+			"title": "Visa",
+			"path": "visa",
+			"source": "/icons/visa.svg"
+		}
+	]
+}
