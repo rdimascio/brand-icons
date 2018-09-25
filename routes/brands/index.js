@@ -1,6 +1,6 @@
 const brands = require('express').Router();
 const all = require('./all');
-const data = require('../../brands.json');
+const data = require('../../data/brands.json');
 const single = require('./single');
 
 brands.get('/', all);
