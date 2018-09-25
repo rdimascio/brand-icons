@@ -11,7 +11,6 @@ brands.get('/:path', single);
 
 brands.param('path', (req, res, next, value) => {
   const brand = data.brands.find(m => m.path === (value));
-
   if (brand) {
     req['brand'] = brand;
     next();
