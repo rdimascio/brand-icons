@@ -1,4 +1,4 @@
-const data = require('../../brands.json');
+const data = require('../../data/brands.json');
 const path = require('path');
 
 module.exports = (req, res) => {
