@@ -1,11 +1,27 @@
-const routes = require('express').Router();
+const routes = require('express').Router()
+const data = require('../data/brands.json')
+const single = require('./single')
 
-routes.get('/', (req, res) => {
-  res.status(200).json({ message: 'Connected!' });
-});	
+// routes.get('/', (req, res) => {
+//   res.status(200).json({ message: 'Connected!' })
+// })
 
-module.exports = routes;
+routes.get('/:path', single)
 
-const brands = require('./brands');
+routes.use('/', single)
 
-routes.use('/brands', brands);
+routes.param('path', (req, res, next, value) => {
+  const brand = data.brands.find(m => m.path === (value))
+  if (brand) {
+    req['brand'] = brand
+    next()
+  } else {
+    res.status(404).send('No brands')
+  }
+})
+
+module.exports = routes
+
+// const brands = require('./brands')
+
+// routes.use('/brands', brands)
