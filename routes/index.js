@@ -2,10 +2,6 @@ const routes = require('express').Router()
 const data = require('../data/brands.json')
 const single = require('./single')
 
-// routes.get('/', (req, res) => {
-//   res.status(200).json({ message: 'Connected!' })
-// })
-
 routes.get('/:path', single)
 
 routes.use('/', single)
