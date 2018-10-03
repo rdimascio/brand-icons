@@ -21,16 +21,20 @@ class App extends Component {
     return (
       <div className="App">
         <header>Brand Icons</header>
-        {
-          this.state.icons && <ul>
-            {this.state.icons.map(icon => (
-              <li key={icon.title}>
-                <img src={`http://localhost:3001/${icon.path}`} alt={icon.title}/>
-                <h3>{icon.title}</h3>
-              </li>
-            ))}
-          </ul>
-        }
+          <div className="grid justify-start items-center">
+            {
+              this.state.icons && <ul className="brand__images">
+                {this.state.icons.map(icon => (
+                  <li key={icon.title}>
+                    <a className="brand__images_image" href={`http://localhost:3001/${icon.path}`}>
+                      <img src={`http://localhost:3001/${icon.path}`} alt={icon.title}/>
+                    </a>
+                    <h3>{icon.title}</h3>
+                  </li>
+                ))}
+              </ul>
+            }
+          </div>
       </div>
     );
   }
