@@ -3,23 +3,34 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      icons: false
+    }
+  }
+  componentDidMount = () => {
+    fetch(`http://localhost:3001/data/brands.json`).then(data => data.json()).then(data => {
+      this.setState({
+        icons: data.brands
+      })
+    })
+  }
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <header>Brand Icons</header>
+        {
+          this.state.icons && <ul>
+            {this.state.icons.map(icon => (
+              <li key={icon.title}>
+                <img src={`http://localhost:3001/${icon.path}`} alt={icon.title}/>
+                <h3>{icon.title}</h3>
+              </li>
+            ))}
+          </ul>
+        }
       </div>
     );
   }
