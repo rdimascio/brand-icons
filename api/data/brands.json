@@ -3,47 +3,47 @@
 		{
 			"title": "American Express",
 			"path": "amex",
-			"source": "/icons/cards/color/amex.svg"
+			"source": "icons/cards/color/amex.svg"
 		},
 		{
 			"title": "Apple Pay",
 			"path": "applepay",
-			"source": "/icons/cards/color/applepay.svg"
+			"source": "icons/cards/color/applepay.svg"
 		},
 		{
 			"title": "Diner's Club",
 			"path": "dinersclub",
-			"source": "/icons/cards/color/dinersclub.svg"
+			"source": "icons/cards/color/dinersclub.svg"
 		},
 		{
 			"title": "JCB",
 			"path": "jcb",
-			"source": "/icons/cards/color/jcb.svg"
+			"source": "icons/cards/color/jcb.svg"
 		},
 		{
 			"title": "Master Card",
 			"path": "mastercard",
-			"source": "/icons/cards/color/mastercard.svg"
+			"source": "icons/cards/color/mastercard.svg"
 		},
 		{
 			"title": "PayPal",
 			"path": "paypal",
-			"source": "/icons/paypal.svg"
+			"source": "icons/cards/color/paypal.svg"
 		},
 		{
 			"title": "Stripe",
 			"path": "stripe",
-			"source": "/icons/stripe.svg"
+			"source": "icons/stripe.svg"
 		},
 		{
 			"title": "Union Pay",
 			"path":	"unionpay",
-			"source": "/icons/cards/color/unionpay.svg"
+			"source": "icons/cards/color/unionpay.svg"
 		},
 		{
 			"title": "Visa",
 			"path": "visa",
-			"source": "/icons/cards/color/visa.svg"
+			"source": "icons/cards/color/visa.svg"
 		}
 	]
 }
