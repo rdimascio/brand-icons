@@ -1,5 +1,4 @@
 // Bring in our dependencies
-const express = require('express')
 const app = require('express')()
 const routes = require('./routes')
 const path = require('path')
@@ -10,11 +9,11 @@ app.use(function (req, res, next) {
   next()
 })
 
-app.use(express.static(path.join(__dirname, 'public')))
+// app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname + '/public/index.html'))
-  // res.status(200).json({ message: 'Connected!' })
+  // res.sendFile(path.join(__dirname + '/public/index.html'))
+  res.status(200).json({ message: 'Connected!' })
 })
 
 app.get('/data/brands.json', (req, res) => {
@@ -26,6 +25,6 @@ app.get('/data/brands.json', (req, res) => {
 app.use('/', routes)
 
 // Turn on that server!
-app.listen(3000, () => {
-  console.log('App listening on port 3000')
+app.listen(3001, () => {
+  console.log('App listening on port 3001')
 })

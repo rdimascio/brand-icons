@@ -28,7 +28,7 @@
 		{
 			"title": "PayPal",
 			"path": "paypal",
-			"source": "/icons/paypal.svg"
+			"source": "/icons/cards/color/paypal.svg"
 		},
 		{
 			"title": "Stripe",
