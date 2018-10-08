@@ -3,47 +3,65 @@
 		{
 			"title": "American Express",
 			"path": "amex",
-			"source": "icons/cards/color/amex.svg"
+			"color": "icons/cards/color/amex.svg",
+			"white": "icons/cards/light/amex.svg",
+			"black": "icons/cards/dark/amex.svg"
 		},
 		{
 			"title": "Apple Pay",
 			"path": "applepay",
-			"source": "icons/cards/color/applepay.svg"
+			"color": "icons/cards/color/applepay.svg",
+			"white": "icons/cards/light/applepay.svg",
+			"black": "icons/cards/dark/amex.svg"
 		},
 		{
 			"title": "Diner's Club",
 			"path": "dinersclub",
-			"source": "icons/cards/color/dinersclub.svg"
+			"color": "icons/cards/color/dinersclub.svg",
+			"white": "icons/cards/light/dinersclub.svg",
+			"black": "icons/cards/dark/dinersclub.svg"
 		},
 		{
 			"title": "JCB",
 			"path": "jcb",
-			"source": "icons/cards/color/jcb.svg"
+			"color": "icons/cards/color/jcb.svg",
+			"white": "icons/cards/light/jcb.svg",
+			"black": "icons/cards/dark/jcb.svg"
 		},
 		{
 			"title": "Master Card",
 			"path": "mastercard",
-			"source": "icons/cards/color/mastercard.svg"
+			"color": "icons/cards/color/mastercard.svg",
+			"white": "icons/cards/light/mastercard.svg",
+			"black": "icons/cards/dark/mastercard.svg"
 		},
 		{
 			"title": "PayPal",
 			"path": "paypal",
-			"source": "icons/cards/color/paypal.svg"
+			"color": "icons/cards/color/paypal.svg",
+			"white": "icons/cards/light/paypal.svg",
+			"black": "icons/cards/dark/paypal.svg"
 		},
 		{
 			"title": "Stripe",
 			"path": "stripe",
-			"source": "icons/stripe.svg"
+			"color": "icons/cards/color/stripe.svg",
+			"white": "icons/cards/light/stripe.svg",
+			"black": "icons/cards/dark/stripe.svg"
 		},
 		{
 			"title": "Union Pay",
 			"path":	"unionpay",
-			"source": "icons/cards/color/unionpay.svg"
+			"color": "icons/cards/color/unionpay.svg",
+			"white": "icons/cards/light/unionpay.svg",
+			"black": "icons/cards/dark/unionpay.svg"
 		},
 		{
 			"title": "Visa",
 			"path": "visa",
-			"source": "icons/cards/color/visa.svg"
+			"color": "icons/cards/color/visa.svg",
+			"white": "icons/cards/light/visa.svg",
+			"black": "icons/cards/dark/visa.svg"
 		}
 	]
 }
