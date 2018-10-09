@@ -73,6 +73,14 @@
 			"black": "icons/cards/dark/dinersclub.svg"
 		},
 		{
+			"title": "Discover",
+			"path": "discover",
+			"tags": "credit card",
+			"color": "icons/cards/color/discover.svg",
+			"white": "icons/cards/light/discover.svg",
+			"black": "icons/cards/dark/discover.svg"
+		},
+		{
 			"title": "Facebook",
 			"path": "facebook",
 			"tags": "social",
@@ -212,6 +220,7 @@
 		{
 			"title": "Tinder",
 			"path": "tinder",
+			"tags": "social",
 			"color": "icons/cards/color/tinder.svg",
 			"white": "icons/cards/light/tinder.svg",
 			"black": "icons/cards/dark/tinder.svg"
