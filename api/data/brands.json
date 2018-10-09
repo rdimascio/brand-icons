@@ -1,145 +1,214 @@
 {
 	"brands": [
 		{
-			"title": "Apple",
-			"path": "apple",
-			"color": "icons/cards/color/apple.svg",
-			"white": "icons/cards/light/apple.svg",
-			"black": "icons/cards/dark/apple.svg"
-		},
-		{
-			"title": "Android",
-			"path": "android",
-			"color": "icons/cards/color/android.svg",
-			"white": "icons/cards/light/android.svg",
-			"black": "icons/cards/dark/android.svg"
-		},
-		{
-			"title": "AWS",
-			"path": "aws",
-			"color": "icons/cards/color/aws.svg",
-			"white": "icons/cards/light/aws.svg",
-			"black": "icons/cards/dark/aws.svg"
-		},
-		{
-			"title": "Stack Overflow",
-			"path": "stackoverflow",
-			"color": "icons/cards/color/stackoverflow.svg",
-			"white": "icons/cards/light/stackoverflow.svg",
-			"black": "icons/cards/dark/stackoverflow.svg"
-		},
-		{
-			"title": "Codepen",
-			"path": "codepen",
-			"color": "icons/cards/color/codepen.svg",
-			"white": "icons/cards/light/codepen.svg",
-			"black": "icons/cards/dark/codepen.svg"
-		},
-		{
-			"title": "JS Fiddle",
-			"path": "jsfiddle",
-			"color": "icons/cards/color/jsfiddle.svg",
-			"white": "icons/cards/light/jsfiddle.svg",
-			"black": "icons/cards/dark/jsfiddle.svg"
-		},
-		{
-			"title": "Vue",
-			"path":	"vue",
-			"color": "icons/cards/color/vue.svg",
-			"white": "icons/cards/light/vue.svg",
-			"black": "icons/cards/dark/vue.svg"
-		},
-		{
-			"title": "GitHub",
-			"path": "github",
-			"color": "icons/cards/color/github.svg",
-			"white": "icons/cards/light/github.svg",
-			"black": "icons/cards/dark/github.svg"
-		},
-		{
-			"title": "Bitcoin",
-			"path": "bitcoin",
-			"color": "icons/cards/color/bitcoin.svg",
-			"white": "icons/cards/light/bitcoin.svg",
-			"black": "icons/cards/dark/bitcoin.svg"
-		},
-		{
-			"title": "Stripe",
-			"path": "stripe",
-			"color": "icons/cards/color/stripe.svg",
-			"white": "icons/cards/light/stripe.svg",
-			"black": "icons/cards/dark/stripe.svg"
-		},
-		{
-			"title": "PayPal",
-			"path": "paypal",
-			"color": "icons/cards/color/paypal.svg",
-			"white": "icons/cards/light/paypal.svg",
-			"black": "icons/cards/dark/paypal.svg"
-		},
-		{
-			"title": "Visa",
-			"path": "visa",
-			"color": "icons/cards/color/visa.svg",
-			"white": "icons/cards/light/visa.svg",
-			"black": "icons/cards/dark/visa.svg"
+			"title": "Amazon",
+			"path": "amazon",
+			"tags": "e-commerce",
+			"color": "icons/cards/color/amazon.svg",
+			"white": "icons/cards/light/amazon.svg",
+			"black": "icons/cards/dark/amazon.svg"
 		},
 		{
 			"title": "American Express",
 			"path": "amex",
+			"tags": "credit card",
 			"color": "icons/cards/color/amex.svg",
 			"white": "icons/cards/light/amex.svg",
 			"black": "icons/cards/dark/amex.svg"
 		},
 		{
-			"title": "Master Card",
-			"path": "mastercard",
-			"color": "icons/cards/color/mastercard.svg",
-			"white": "icons/cards/light/mastercard.svg",
-			"black": "icons/cards/dark/mastercard.svg"
+			"title": "Android",
+			"path": "android",
+			"tags": "tech",
+			"color": "icons/cards/color/android.svg",
+			"white": "icons/cards/light/android.svg",
+			"black": "icons/cards/dark/android.svg"
 		},
 		{
-			"title": "Union Pay",
-			"path":	"unionpay",
-			"color": "icons/cards/color/unionpay.svg",
-			"white": "icons/cards/light/unionpay.svg",
-			"black": "icons/cards/dark/unionpay.svg"
-		},
-		{
-			"title": "Diner's Club",
-			"path": "dinersclub",
-			"color": "icons/cards/color/dinersclub.svg",
-			"white": "icons/cards/light/dinersclub.svg",
-			"black": "icons/cards/dark/dinersclub.svg"
-		},
-		{
-			"title": "JCB",
-			"path": "jcb",
-			"color": "icons/cards/color/jcb.svg",
-			"white": "icons/cards/light/jcb.svg",
-			"black": "icons/cards/dark/jcb.svg"
+			"title": "Apple",
+			"path": "apple",
+			"tags": "tech",
+			"color": "icons/cards/color/apple.svg",
+			"white": "icons/cards/light/apple.svg",
+			"black": "icons/cards/dark/apple.svg"
 		},
 		{
 			"title": "Apple Pay",
 			"path": "applepay",
+			"tags": "payment",
 			"color": "icons/cards/color/applepay.svg",
 			"white": "icons/cards/light/applepay.svg",
 			"black": "icons/cards/dark/applepay.svg"
 		},
 		{
-			"title": "Tesla",
-			"path":	"tesla",
-			"color": "icons/cards/color/tesla.svg",
-			"white": "icons/cards/light/tesla.svg",
-			"black": "icons/cards/dark/tesla.svg"
+			"title": "AWS",
+			"path": "aws",
+			"tags": "dev",
+			"color": "icons/cards/color/aws.svg",
+			"white": "icons/cards/light/aws.svg",
+			"black": "icons/cards/dark/aws.svg"
+		},
+		{
+			"title": "Bitcoin",
+			"path": "bitcoin",
+			"tags": "crypto",
+			"color": "icons/cards/color/bitcoin.svg",
+			"white": "icons/cards/light/bitcoin.svg",
+			"black": "icons/cards/dark/bitcoin.svg"
+		},
+		{
+			"title": "Codepen",
+			"path": "codepen",
+			"tags": "dev",
+			"color": "icons/cards/color/codepen.svg",
+			"white": "icons/cards/light/codepen.svg",
+			"black": "icons/cards/dark/codepen.svg"
+		},
+		{
+			"title": "Diner's Club",
+			"path": "dinersclub",
+			"tags": "credit card",
+			"color": "icons/cards/color/dinersclub.svg",
+			"white": "icons/cards/light/dinersclub.svg",
+			"black": "icons/cards/dark/dinersclub.svg"
+		},
+		{
+			"title": "Facebook",
+			"path": "facebook",
+			"tags": "social",
+			"color": "icons/cards/color/facebook.svg",
+			"white": "icons/cards/light/facebook.svg",
+			"black": "icons/cards/dark/facebook.svg"
+		},
+		{
+			"title": "GitHub",
+			"path": "github",
+			"tags": "dev",
+			"color": "icons/cards/color/github.svg",
+			"white": "icons/cards/light/github.svg",
+			"black": "icons/cards/dark/github.svg"
+		},
+		{
+			"title": "Google",
+			"path": "google",
+			"tags": "tech",
+			"color": "icons/cards/color/google.svg",
+			"white": "icons/cards/light/google.svg",
+			"black": "icons/cards/dark/google.svg"
+		},
+		{
+			"title": "Instagram",
+			"path": "instagram",
+			"tags": "social",
+			"color": "icons/cards/color/instagram.svg",
+			"white": "icons/cards/light/instagram.svg",
+			"black": "icons/cards/dark/instagram.svg"
+		},
+		{
+			"title": "Intercom",
+			"path": "intercom",
+			"tags": "tech",
+			"color": "icons/cards/color/intercom.svg",
+			"white": "icons/cards/light/intercom.svg",
+			"black": "icons/cards/dark/intercom.svg"
+		},
+		{
+			"title": "JCB",
+			"path": "jcb",
+			"tags": "credit card",
+			"color": "icons/cards/color/jcb.svg",
+			"white": "icons/cards/light/jcb.svg",
+			"black": "icons/cards/dark/jcb.svg"
+		},
+		{
+			"title": "JS Fiddle",
+			"path": "jsfiddle",
+			"tags": "dev",
+			"color": "icons/cards/color/jsfiddle.svg",
+			"white": "icons/cards/light/jsfiddle.svg",
+			"black": "icons/cards/dark/jsfiddle.svg"
+		},
+		{
+			"title": "Master Card",
+			"path": "mastercard",
+			"tags": "credit card",
+			"color": "icons/cards/color/mastercard.svg",
+			"white": "icons/cards/light/mastercard.svg",
+			"black": "icons/cards/dark/mastercard.svg"
+		},
+		{
+			"title": "PayPal",
+			"path": "paypal",
+			"tags": "payment",
+			"color": "icons/cards/color/paypal.svg",
+			"white": "icons/cards/light/paypal.svg",
+			"black": "icons/cards/dark/paypal.svg"
+		},
+		{
+			"title": "Product Hunt",
+			"path": "producthunt",
+			"tags": "social",
+			"color": "icons/cards/color/producthunt.svg",
+			"white": "icons/cards/light/producthunt.svg",
+			"black": "icons/cards/dark/producthunt.svg"
+		},
+		{
+			"title": "Reddit",
+			"path": "reddit",
+			"tags": "social",
+			"color": "icons/cards/color/reddit.svg",
+			"white": "icons/cards/light/reddit.svg",
+			"black": "icons/cards/dark/reddit.svg"
+		},
+		{
+			"title": "Slack",
+			"path": "slack",
+			"tags": "tech",
+			"color": "icons/cards/color/slack.svg",
+			"white": "icons/cards/light/slack.svg",
+			"black": "icons/cards/dark/slack.svg"
+		},
+		{
+			"title": "Snapchat",
+			"path": "snapchat",
+			"tags": "social",
+			"color": "icons/cards/color/snapchat.svg",
+			"white": "icons/cards/light/snapchat.svg",
+			"black": "icons/cards/dark/snapchat.svg"
 		},
 		{
 			"title": "Spotify",
 			"path": "spotify",
+			"tags": "social",
 			"color": "icons/cards/color/spotify.svg",
 			"white": "icons/cards/light/spotify.svg",
 			"black": "icons/cards/dark/spotify.svg"
 		},
+		{
+			"title": "Stack Overflow",
+			"path": "stackoverflow",
+			"tags": "dev",
+			"color": "icons/cards/color/stackoverflow.svg",
+			"white": "icons/cards/light/stackoverflow.svg",
+			"black": "icons/cards/dark/stackoverflow.svg"
+		},
+		{
+			"title": "Stripe",
+			"path": "stripe",
+			"tags": "payment",
+			"color": "icons/cards/color/stripe.svg",
+			"white": "icons/cards/light/stripe.svg",
+			"black": "icons/cards/dark/stripe.svg"
+		},
+		{
+			"title": "Tesla",
+			"path":	"tesla",
+			"tags": "vehicles",
+			"color": "icons/cards/color/tesla.svg",
+			"white": "icons/cards/light/tesla.svg",
+			"black": "icons/cards/dark/tesla.svg"
+		},
+		
 		{
 			"title": "Tinder",
 			"path": "tinder",
@@ -148,95 +217,60 @@
 			"black": "icons/cards/dark/tinder.svg"
 		},
 		{
-			"title": "Twitter",
-			"path": "twitter",
-			"color": "icons/cards/color/twitter.svg",
-			"white": "icons/cards/light/twitter.svg",
-			"black": "icons/cards/dark/twitter.svg"
-		},
-		{
-			"title": "Facebook",
-			"path": "facebook",
-			"color": "icons/cards/color/facebook.svg",
-			"white": "icons/cards/light/facebook.svg",
-			"black": "icons/cards/dark/facebook.svg"
-		},
-		{
-			"title": "Instagram",
-			"path": "instagram",
-			"color": "icons/cards/color/instagram.svg",
-			"white": "icons/cards/light/instagram.svg",
-			"black": "icons/cards/dark/instagram.svg"
-		},
-		{
-			"title": "Snapchat",
-			"path": "snapchat",
-			"color": "icons/cards/color/snapchat.svg",
-			"white": "icons/cards/light/snapchat.svg",
-			"black": "icons/cards/dark/snapchat.svg"
-		},
-		{
-			"title": "Google",
-			"path": "google",
-			"color": "icons/cards/color/google.svg",
-			"white": "icons/cards/light/google.svg",
-			"black": "icons/cards/dark/google.svg"
-		},
-		{
-			"title": "YouTube",
-			"path": "youtube",
-			"color": "icons/cards/color/youtube.svg",
-			"white": "icons/cards/light/youtube.svg",
-			"black": "icons/cards/dark/youtube.svg"
-		},
-		{
-			"title": "Product Hunt",
-			"path": "producthunt",
-			"color": "icons/cards/color/producthunt.svg",
-			"white": "icons/cards/light/producthunt.svg",
-			"black": "icons/cards/dark/producthunt.svg"
-		},
-		{
-			"title": "Intercom",
-			"path": "intercom",
-			"color": "icons/cards/color/intercom.svg",
-			"white": "icons/cards/light/intercom.svg",
-			"black": "icons/cards/dark/intercom.svg"
-		},
-		{
-			"title": "Slack",
-			"path": "slack",
-			"color": "icons/cards/color/slack.svg",
-			"white": "icons/cards/light/slack.svg",
-			"black": "icons/cards/dark/slack.svg"
-		},
-		{
 			"title": "Trello",
 			"path": "trello",
+			"tags": "tech",
 			"color": "icons/cards/color/trello.svg",
 			"white": "icons/cards/light/trello.svg",
 			"black": "icons/cards/dark/trello.svg"
 		},
 		{
-			"title": "Reddit",
-			"path": "reddit",
-			"color": "icons/cards/color/reddit.svg",
-			"white": "icons/cards/light/reddit.svg",
-			"black": "icons/cards/dark/reddit.svg"
+			"title": "Twitter",
+			"path": "twitter",
+			"tags": "social",
+			"color": "icons/cards/color/twitter.svg",
+			"white": "icons/cards/light/twitter.svg",
+			"black": "icons/cards/dark/twitter.svg"
 		},
 		{
-			"title": "Amazon",
-			"path": "amazon",
-			"color": "icons/cards/color/amazon.svg",
-			"white": "icons/cards/light/amazon.svg",
-			"black": "icons/cards/dark/amazon.svg"
+			"title": "Union Pay",
+			"path":	"unionpay",
+			"tags": "credit card",
+			"color": "icons/cards/color/unionpay.svg",
+			"white": "icons/cards/light/unionpay.svg",
+			"black": "icons/cards/dark/unionpay.svg"
+		},
+		{
+			"title": "Visa",
+			"path": "visa",
+			"tags": "credit card",
+			"color": "icons/cards/color/visa.svg",
+			"white": "icons/cards/light/visa.svg",
+			"black": "icons/cards/dark/visa.svg"
+		},
+		{
+			"title": "Vue",
+			"path":	"vue",
+			"tags": "dev",
+			"color": "icons/cards/color/vue.svg",
+			"white": "icons/cards/light/vue.svg",
+			"black": "icons/cards/dark/vue.svg"
 		},
 		{
 			"title": "WordPress",
 			"path": "wordpress",
+			"tags": "tech",
 			"color": "icons/cards/color/wordpress.svg",
 			"white": "icons/cards/light/wordpress.svg",
 			"black": "icons/cards/dark/wordpress.svg"
+		},
+		{
+			"title": "YouTube",
+			"path": "youtube",
+			"tags": "social",
+			"color": "icons/cards/color/youtube.svg",
+			"white": "icons/cards/light/youtube.svg",
+			"black": "icons/cards/dark/youtube.svg"
 		}
 	]
 }

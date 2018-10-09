@@ -23,13 +23,16 @@ class App extends Component {
         <header>Brand Icons</header>
           <div className="grid justify-start items-center">
             {
-              this.state.icons && <ul className="brand__images">
+              this.state.icons && <ul className="brand__images brand__images_grid">
                 {this.state.icons.map(icon => (
                   <li key={icon.title}>
                     <a className="brand__images_image" href={`http://localhost:3001/${icon.path}`}>
                       <img src={`http://localhost:3001/${icon.path}`} alt={icon.title}/>
                     </a>
-                    <h3>{icon.title}</h3>
+                    <div className="brand__images_info">
+                      <h2>{icon.title}</h2>
+                      <p>#{icon.tags}</p>
+                    </div>
                   </li>
                 ))}
               </ul>
