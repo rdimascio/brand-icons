@@ -20,7 +20,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header>Brand Icons</header>
+        <header>
+          <div className="navbar">
+
+          </div>
+        </header>
           <div className="grid justify-start items-center">
             {
               this.state.icons && <ul className="brand__images brand__images_grid">
@@ -38,6 +42,11 @@ class App extends Component {
               </ul>
             }
           </div>
+        <footer>
+          <div className="">
+            
+          </div>
+        </footer>
       </div>
     );
   }
