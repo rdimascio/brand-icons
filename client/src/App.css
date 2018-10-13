@@ -1,7 +1,6 @@
 .drop-in .container {
     padding-top: 15px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #eee;
     -webkit-transition: padding .4s cubic-bezier(0.694,0.0482,0.335,1);
     transition: padding .4s cubic-bezier(0.694,0.0482,0.335,1);
     max-width: 100%; }
@@ -18,6 +17,9 @@
     letter-spacing: .2rem;
     text-decoration: none;
     font-family: 'Londrina Solid', cursive; }
+    @media (max-width: 420px) {
+        .site-header .custom-logo-link h1 {
+            font-size: 1.5rem; } }
 
 .site-header .site-logo img {
     border-radius: 100%;
@@ -80,8 +82,14 @@
     content: "";
     display: table; }
 
+.menu-social-container ul {
+    list-style: none; }
+
 .hero_section {
     min-height: 420px; }
+    @media (min-width: 565px) {
+        .hero_section {
+            padding: 0 3rem; } }
 
 .hero_section h1 {
 /*    font-family: 'Londrina Solid', cursive; */
@@ -104,6 +112,9 @@
     border-radius: 6px;
     border: 1px solid #afafaf;
     padding: 1rem; }
+    @media (max-width: 420px) {
+       .hero_section input {
+            width: 250px; } }
 
 .grid {
     padding: 0rem 3rem; }
@@ -164,9 +175,7 @@
 .subscribe__header {
     color: #f5f5f5;
     padding-bottom: 3rem;
-    margin-bottom: 2rem;
-    font-family: 'Londrina Solid', cursive;
-    letter-spacing: .1rem; }
+    margin-bottom: 2rem; }
 
 #member_email {
     width: 350px;
@@ -174,6 +183,9 @@
     border-radius: 6px;
     border: none;
     padding: 1rem; }
+    @media (max-width: 420px) {
+       #member_email {
+            width: 250px; } }
 
 #member_submit {
     padding: 1rem 4rem;
