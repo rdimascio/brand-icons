@@ -10,20 +10,20 @@ app.use(function (req, res, next) {
   next()
 })
 
-// app.use(express.static(path.join(__dirname, 'public')))
-
-app.get('/', (req, res) => {
-  // res.sendFile(path.join(__dirname + '/public/index.html'))
-  res.status(200).json({ message: 'Connected!' })
-})
+app.use(express.static(path.join(__dirname, 'client/build')))
 
 app.get('/data/brands.json', (req, res) => {
   res.sendFile(path.join(__dirname + '/data/brands.json'))
-  // res.status(200).json({ message: 'Connected!' })
 })
 
 //  Connect all our routes to our application
 app.use('/', routes)
+
+// The "catchall" handler: for any request that doesn't
+// match one above, send back React's index.html file.
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname+'/client/build/index.html'));
+});
 
 // Turn on that server!
 app.listen(PORT, () => console.log('App listening on ${ PORT }'))
