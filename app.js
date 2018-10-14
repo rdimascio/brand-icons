@@ -12,7 +12,7 @@ app.use(function (req, res, next) {
   next()
 })
 
-app.use(express.static(path.join(__dirname, 'client/build')))
+app.use(express.static('client/build'));
 
 app.get('/data/brands.json', (req, res) => {
   res.sendFile(path.join(__dirname + '/data/brands.json'))
