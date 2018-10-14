@@ -2,6 +2,7 @@
 const app = require('express')()
 const routes = require('./routes')
 const path = require('path')
+const PORT = process.env.PORT || 5000
 
 app.use(function (req, res, next) {
   res.header('Access-Control-Allow-Origin', '*')
@@ -25,6 +26,4 @@ app.get('/data/brands.json', (req, res) => {
 app.use('/', routes)
 
 // Turn on that server!
-app.listen(3001, () => {
-  console.log('App listening on port 3001')
-})
+app.listen(PORT, () => console.log('App listening on ${ PORT }'))
