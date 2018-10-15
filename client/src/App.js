@@ -229,7 +229,7 @@ class App extends Component {
                 <div className='menu-social-container'>
 
                   <ul className='social-menu header-font medium smooth gray h5 list-reset'>
-                    <li><a href='https://github.com/rdimascio/brand-icons' target='_blank' rel='noopener noreferrer'><img src='http://localhost:3001/github' width='22' alt='View us on GitHub' /></a></li>
+                    <li><a href='https://github.com/rdimascio/brand-icons' target='_blank' rel='noopener noreferrer'><img src='/github' width='22' alt='View us on GitHub' /></a></li>
                   </ul>
 
                 </div>
@@ -240,7 +240,7 @@ class App extends Component {
         <div className='flex justify-center items-center text-center hero_section'>
           <form>
             <h1>A Curated Collection of Brand Icons</h1>
-            <p>Download or link to any brand SVG for free. An open-source project maintained by <a href='https://twitter.com/intent/follow?screen_name=dimasc_io' target='_blank' rel='noopener noreferrer'>@dimasc_io</a> and <a href='https://twitter.com/intent/follow?screen_name=pugson' target='_blank' rel='noopener noreferrer'>@pugson</a></p>
+            <p>Download or link to any brand SVG for free. An open-source project maintained by <a href='https://twitter.com/intent/follow?screen_name=dimasc_io' target='_blank' rel='noopener noreferrer'>@dimasc_io</a></p>
             <input
               type='text'
               value={this.state.searchString}
@@ -255,8 +255,8 @@ class App extends Component {
             {_icons.map(l => {
               return (
                 <li>
-                  <a className='brand__images_image' href={`http://localhost:3001/${l.path}`}>
-                    <img src={`http://localhost:3001/${l.path}`} alt={l.title} />
+                  <a className='brand__images_image' href={`/${l.path}`}>
+                    <img src={`/${l.path}`} alt={l.title} />
                   </a>
                   <div className='brand__images_info'>
                     <h2>{l.title}</h2>

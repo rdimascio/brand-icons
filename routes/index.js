@@ -17,7 +17,3 @@ routes.param('path', (req, res, next, value) => {
 })
 
 module.exports = routes
-
-// const brands = require('./brands')
-
-// routes.use('/brands', brands)

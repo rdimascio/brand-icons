@@ -1,20 +1,13 @@
 {
-  "name": "brands",
+  "name": "brands-test",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "node app.js",
-    "heroku-postbuild": "cd client && npm install && npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.4"
   },
-  "devDependencies": {
-    "nodemon": "^1.18.4"
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && yarn && yarn run build"
   }
 }
