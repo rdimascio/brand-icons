@@ -159,7 +159,7 @@
     display: block;
     margin: 0 auto;
     /* max-height: 40vh; */
-    min-width: 5vh;
+    min-height: 4vh;
     /* max-width: 100%; */
     transition: all .4s; }
 

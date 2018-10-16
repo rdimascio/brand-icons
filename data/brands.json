@@ -137,6 +137,14 @@
 			"black": "icons/cards/dark/jsfiddle.svg"
 		},
 		{
+			"title": "LinkedIn",
+			"path": "linkedin",
+			"tags": "social",
+			"color": "icons/cards/color/linkedin.svg",
+			"white": "icons/cards/light/linkedin.svg",
+			"black": "icons/cards/dark/linkedin.svg"
+		},
+		{
 			"title": "Master Card",
 			"path": "mastercard",
 			"tags": "credit card",

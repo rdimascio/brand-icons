@@ -88,6 +88,11 @@ let icons = [
     'tags': 'dev'
   },
   {
+    'title': 'LinkedIn',
+    'path': 'linkedin',
+    'tags': 'social'
+  },
+  {
     'title': 'Master Card',
     'path': 'mastercard',
     'tags': 'credit card'
@@ -132,12 +137,6 @@ let icons = [
     'path': 'stripe',
     'tags': 'payment'
   },
-  {
-    'title': 'Tesla',
-    'path': 'tesla',
-    'tags': 'vehicles'
-  },
-
   {
     'title': 'Tinder',
     'path': 'tinder',
