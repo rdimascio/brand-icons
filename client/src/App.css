@@ -124,7 +124,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
     flex-basis: 200px;
     position: relative;
     text-align: center;
@@ -148,8 +147,7 @@
 
 .brand__images_image {
     display: inline-block;
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
+    padding: 2rem;
     width: 100%; }
 
 .brand__images_image img {
@@ -161,12 +159,17 @@
     transition: all .4s; }
 
 .brand__images_info {
-    bottom: 0;
-    left: 0;
     position: absolute;
+    padding: 1rem;
+    bottom: 0;
+    left: 0;    
     right: 0; }
 
-.brand__images_info p {
+.brand__title {
+    color: #797979; }
+
+.brand__tags {
+    font-size: .7rem;
     color: #ababab; }
 
 .subscribe__header {
