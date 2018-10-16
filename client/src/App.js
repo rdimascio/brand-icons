@@ -3,6 +3,11 @@ import './App.css'
 
 let icons = [
   {
+    'title': 'Adobe',
+    'path': 'adobe',
+    'tags': 'design'
+  },
+  {
     'title': 'Amazon',
     'path': 'amazon',
     'tags': 'e-commerce'

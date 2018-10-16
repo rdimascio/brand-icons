@@ -1,6 +1,14 @@
 {
 	"brands": [
 		{
+			"title": "Adobe",
+			"path": "adobe",
+			"tags": "design",
+			"color": "icons/cards/color/adobe.svg",
+			"white": "icons/cards/light/adobe.svg",
+			"black": "icons/cards/dark/adobe.svg"
+		},
+		{
 			"title": "Amazon",
 			"path": "amazon",
 			"tags": "e-commerce",
