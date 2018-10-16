@@ -126,20 +126,18 @@
     align-items: center;
     padding: 1rem;
     flex-basis: 200px;
-    flex-grow: 1;
-    flex-shrink: 1;
     position: relative;
     text-align: center;
     color: #757575;
     background: #fff;
     border-radius: .625rem;
-    margin: 1rem 1rem 6rem;
+    margin: 1rem;
     box-shadow: 0 0.125rem 0.9375rem 0 rgba(0,0,0,.1);
     transition: all 1.2s cubic-bezier(.165,.84,.44,1);
     font-weight: 700; }
 
 .brand__images_grid>li {
-    padding-bottom: 10rem; }
+    padding-bottom: 6rem; }
 
 .brand__images {
   padding: 0;
@@ -165,7 +163,6 @@
 .brand__images_info {
     bottom: 0;
     left: 0;
-    min-height: 10rem;
     position: absolute;
     right: 0; }
 
