@@ -98,6 +98,11 @@ let icons = [
     'tags': 'credit card'
   },
   {
+    'title': 'Netflix',
+    'path': 'netflix',
+    'tags': 'video'
+  },
+  {
     'title': 'PayPal',
     'path': 'paypal',
     'tags': 'payment'
@@ -175,7 +180,7 @@ let icons = [
   {
     'title': 'YouTube',
     'path': 'youtube',
-    'tags': 'social'
+    'tags': 'video'
   }
 ]
 
