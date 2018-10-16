@@ -153,6 +153,14 @@
 			"black": "icons/cards/dark/mastercard.svg"
 		},
 		{
+			"title": "netflix",
+			"path": "netflix",
+			"tags": "video",
+			"color": "icons/cards/color/netflix.svg",
+			"white": "icons/cards/light/netflix.svg",
+			"black": "icons/cards/dark/netflix.svg"
+		},
+		{
 			"title": "PayPal",
 			"path": "paypal",
 			"tags": "payment",
@@ -284,7 +292,7 @@
 		{
 			"title": "YouTube",
 			"path": "youtube",
-			"tags": "social",
+			"tags": "video",
 			"color": "icons/cards/color/youtube.svg",
 			"white": "icons/cards/light/youtube.svg",
 			"black": "icons/cards/dark/youtube.svg"
