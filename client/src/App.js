@@ -259,7 +259,7 @@ class App extends Component {
                     <img src={`/${l.path}`} alt={l.title} />
                   </a>
                   <div className='brand__images_info'>
-                    <h2>{l.title}</h2>
+                    <p>{l.title}</p>
                     <p>#{l.tags}</p>
                   </div>
                 </li>
