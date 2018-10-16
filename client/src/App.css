@@ -124,14 +124,15 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 5rem;
+    padding: 4rem;
     position: relative;
     text-align: center;
     color: #757575;
     background: #fff;
-    border-radius: 6em;
+    border-radius: .625rem;
+    margin: 1rem;
     margin-bottom: 6rem;
-    box-shadow: 0px 0px 0px 0px rgb(150, 130, 130), 0px 28px 72px -34px rgba(0,0,0,0.51);
+    box-shadow: 0 0.125rem 0.9375rem 0 rgba(0,0,0,.1)
     -webkit-transition: all 1.2s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: all 1.2s cubic-bezier(0.165, 0.84, 0.44, 1);
     font-weight: bold; }
