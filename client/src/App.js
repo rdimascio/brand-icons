@@ -8,6 +8,11 @@ let icons = [
     'tags': 'design'
   },
   {
+    'title': 'After Effects',
+    'path': 'aftereffects',
+    'tags': 'design'
+  },
+  {
     'title': 'Amazon',
     'path': 'amazon',
     'tags': 'e-commerce'
@@ -48,6 +53,11 @@ let icons = [
     'tags': 'dev'
   },
   {
+    'title': 'Creative Cloud',
+    'path': 'creativecloud',
+    'tags': 'design'
+  },
+  {
     'title': "Diner's Club",
     'path': 'dinersclub',
     'tags': 'credit card'
@@ -71,6 +81,16 @@ let icons = [
     'title': 'Google',
     'path': 'google',
     'tags': 'tech'
+  },
+  {
+    'title': 'Illustrator',
+    'path': 'illustrator',
+    'tags': 'design'
+  },
+  {
+    'title': 'InDesign',
+    'path': 'indesign',
+    'tags': 'design'
   },
   {
     'title': 'Instagram',
@@ -113,9 +133,19 @@ let icons = [
     'tags': 'payment'
   },
   {
+    'title': 'Photoshop',
+    'path': 'photoshop',
+    'tags': 'design'
+  },
+  {
     'title': 'Product Hunt',
     'path': 'producthunt',
     'tags': 'social'
+  },
+  {
+    'title': 'Premiere Pro',
+    'path': 'premierepro',
+    'tags': 'design'
   },
   {
     'title': 'Reddit',
