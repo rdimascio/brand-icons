@@ -7,6 +7,7 @@ module.exports = (req, res) => {
 
   // Not using the brand path, just using what was passed in for now
   res.setHeader('Content-Type', 'image/svg+xml')
-  res.sendFile(path.join(__dirname, '../icons/', reqpath + '.svg'))
+  // res.sendFile(path.join(__dirname, '../icons/', reqpath + '.svg'))
+  res.status(301).redirect('https://cdn.jsdelivr.net/gh/rdimascio/brand-icons@0.1/icons/' + reqpath + '.svg')
   // res.status(200).json({ brand });
 }

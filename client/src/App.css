@@ -119,7 +119,7 @@
 .grid {
     padding: 0rem 3rem; }
 
-.brand__images>li {
+.brand__images>.brand__card {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -136,7 +136,7 @@
     transition: all 1.2s cubic-bezier(.165,.84,.44,1);
     font-weight: 700; }
 
-.brand__images_grid>li {
+.brand__images_grid>.brand__card {
     padding-bottom: 6rem; }
 
 .brand__images {

@@ -268,7 +268,7 @@ class App extends Component {
                 <div className='menu-social-container'>
 
                   <ul className='social-menu header-font medium smooth gray h5 list-reset'>
-                    <li><a href='https://github.com/rdimascio/brand-icons' target='_blank' rel='noopener noreferrer'><img src='/github' width='22' alt='View us on GitHub' /></a></li>
+                    <li><a href='https://github.com/rdimascio/brand-icons' target='_blank' rel='noopener noreferrer'><img src='https://cdn.brandicons.org/icons/github.svg' width='22' alt='View us on GitHub' /></a></li>
                   </ul>
 
                 </div>
@@ -290,21 +290,21 @@ class App extends Component {
           </form>
         </div>
         <div className='grid justify-start items-center'>
-          <ul className='brand__images brand__images_grid'>
+          <div className='brand__images brand__images_grid'>
             {_icons.map(l => {
               return (
-                <li>
-                  <a className='brand__images_image' href={`/${l.path}`}>
-                    <img src={`/${l.path}`} alt={l.title} />
+                <div className="brand__card">
+                  <a className='brand__images_image' href={`https://cdn.jsdelivr.net/gh/rdimascio/brand-icons@0.1/icons/${l.path}.svg`}>
+                    <div style={{ backgroundImage: `url(https://cdn.jsdelivr.net/gh/rdimascio/brand-icons@0.1/icons/${l.path}.svg)`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', height: '4rem'}}></div>
                   </a>
                   <div className='brand__images_info'>
                     <p className='brand__title'>{l.title}</p>
                     <p className='brand__tags'>#{l.tags}</p>
                   </div>
-                </li>
+                </div>
               )
             })}
-          </ul>
+          </div>
         </div>
         <footer className='flex justify-center'>
           <div className='text-center flex justify-center items-center subscibe__form'>
