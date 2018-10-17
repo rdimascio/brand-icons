@@ -3,6 +3,16 @@ import './App.css'
 
 let icons = [
   {
+    'title': 'Adobe',
+    'path': 'adobe',
+    'tags': 'design'
+  },
+  {
+    'title': 'After Effects',
+    'path': 'aftereffects',
+    'tags': 'design'
+  },
+  {
     'title': 'Amazon',
     'path': 'amazon',
     'tags': 'e-commerce'
@@ -43,6 +53,11 @@ let icons = [
     'tags': 'dev'
   },
   {
+    'title': 'Creative Cloud',
+    'path': 'creativecloud',
+    'tags': 'design'
+  },
+  {
     'title': "Diner's Club",
     'path': 'dinersclub',
     'tags': 'credit card'
@@ -68,6 +83,16 @@ let icons = [
     'tags': 'tech'
   },
   {
+    'title': 'Illustrator',
+    'path': 'illustrator',
+    'tags': 'design'
+  },
+  {
+    'title': 'InDesign',
+    'path': 'indesign',
+    'tags': 'design'
+  },
+  {
     'title': 'Instagram',
     'path': 'instagram',
     'tags': 'social'
@@ -88,9 +113,19 @@ let icons = [
     'tags': 'dev'
   },
   {
+    'title': 'LinkedIn',
+    'path': 'linkedin',
+    'tags': 'social'
+  },
+  {
     'title': 'Master Card',
     'path': 'mastercard',
     'tags': 'credit card'
+  },
+  {
+    'title': 'Netflix',
+    'path': 'netflix',
+    'tags': 'video'
   },
   {
     'title': 'PayPal',
@@ -98,9 +133,19 @@ let icons = [
     'tags': 'payment'
   },
   {
+    'title': 'Photoshop',
+    'path': 'photoshop',
+    'tags': 'design'
+  },
+  {
     'title': 'Product Hunt',
     'path': 'producthunt',
     'tags': 'social'
+  },
+  {
+    'title': 'Premiere Pro',
+    'path': 'premierepro',
+    'tags': 'design'
   },
   {
     'title': 'Reddit',
@@ -132,12 +177,6 @@ let icons = [
     'path': 'stripe',
     'tags': 'payment'
   },
-  {
-    'title': 'Tesla',
-    'path': 'tesla',
-    'tags': 'vehicles'
-  },
-
   {
     'title': 'Tinder',
     'path': 'tinder',
@@ -176,7 +215,7 @@ let icons = [
   {
     'title': 'YouTube',
     'path': 'youtube',
-    'tags': 'social'
+    'tags': 'video'
   }
 ]
 
@@ -229,7 +268,7 @@ class App extends Component {
                 <div className='menu-social-container'>
 
                   <ul className='social-menu header-font medium smooth gray h5 list-reset'>
-                    <li><a href='https://github.com/rdimascio/brand-icons' target='_blank' rel='noopener noreferrer'><img src='/github' width='22' alt='View us on GitHub' /></a></li>
+                    <li><a href='https://github.com/rdimascio/brand-icons' target='_blank' rel='noopener noreferrer'><img src='https://cdn.brandicons.org/icons/github.svg' width='22' alt='View us on GitHub' /></a></li>
                   </ul>
 
                 </div>
@@ -251,21 +290,21 @@ class App extends Component {
           </form>
         </div>
         <div className='grid justify-start items-center'>
-          <ul className='brand__images brand__images_grid'>
+          <div className='brand__images brand__images_grid'>
             {_icons.map(l => {
               return (
-                <li>
-                  <a className='brand__images_image' href={`/${l.path}`}>
-                    <img src={`/${l.path}`} alt={l.title} />
+                <div className="brand__card">
+                  <a className='brand__images_image' href={`https://cdn.jsdelivr.net/gh/rdimascio/brand-icons@0.1/icons/${l.path}.svg`}>
+                    <div style={{ backgroundImage: `url(https://cdn.jsdelivr.net/gh/rdimascio/brand-icons@0.1/icons/${l.path}.svg)`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', height: '4rem'}}></div>
                   </a>
                   <div className='brand__images_info'>
-                    <h2>{l.title}</h2>
-                    <p>#{l.tags}</p>
+                    <p className='brand__title'>{l.title}</p>
+                    <p className='brand__tags'>#{l.tags}</p>
                   </div>
-                </li>
+                </div>
               )
             })}
-          </ul>
+          </div>
         </div>
         <footer className='flex justify-center'>
           <div className='text-center flex justify-center items-center subscibe__form'>
