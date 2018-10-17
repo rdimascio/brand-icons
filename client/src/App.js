@@ -294,8 +294,8 @@ class App extends Component {
             {_icons.map(l => {
               return (
                 <div className="brand__card">
-                  <a className='brand__images_image' href={`https://cdn.jsdelivr.net/gh/rdimascio/brand-icons@0.1/icons/${l.path}.svg`}>
-                    <div style={{ backgroundImage: `url(https://cdn.jsdelivr.net/gh/rdimascio/brand-icons@0.1/icons/${l.path}.svg)`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', height: '4rem'}}></div>
+                  <a className='brand__images_image' href={`https://cdn.brandicons.org/icons/${l.path}.svg`}>
+                    <div style={{ backgroundImage: `url(https://cdn.brandicons.org/icons/${l.path}.svg)`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', height: '4rem'}}></div>
                   </a>
                   <div className='brand__images_info'>
                     <p className='brand__title'>{l.title}</p>
