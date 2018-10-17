@@ -124,32 +124,17 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 18%;
+    padding: 1rem;
+    flex: 1 1 200px;
     position: relative;
     text-align: center;
     color: #757575;
     background: #fff;
     border-radius: .625rem;
-    padding: 1rem 0;
-    margin: 1.5rem 0;
+    margin: 1rem;
     box-shadow: 0 0.125rem 0.9375rem 0 rgba(0,0,0,.1);
     transition: all 1.2s cubic-bezier(.165,.84,.44,1);
     font-weight: 700; }
-    @media only screen and (max-width: 1134) {
-        .brand__images>li {
-            width: 22%!important; } }
-            @media only screen and (max-width: 946) {
-                .brand__images>li {
-                    width: 27%!important; } }
-                    @media only screen and (max-width: 780) {
-                        .brand__images>li {
-                            width: 42%!important; } }
-                            @media only screen and (max-width: 543) {
-                                .brand__images>li {
-                                    width: 67%!important; } }
-                                    @media only screen and (max-width: 375) {
-                                        .brand__images>li {
-                                            width: 83%!important; } }
 
 .brand__images_grid>li {
     padding-bottom: 6rem; }
