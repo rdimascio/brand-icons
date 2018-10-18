@@ -125,11 +125,11 @@
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
-    flex: 1 1 200px;
+    flex: 0 0 200px;
     position: relative;
     text-align: center;
     color: #757575;
-    background: #fff;
+    background: #FFFFFF;
     border-radius: .625rem;
     margin: 1rem;
     box-shadow: 0 0.125rem 0.9375rem 0 rgba(0,0,0,.1);
