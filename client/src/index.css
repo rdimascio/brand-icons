@@ -2,7 +2,7 @@ body {
 	  margin: 0;
 	  padding: 0;
 	  font-family: 'Open Sans', sans-serif;
-	  background: #F5F5F5;
+	  background: #EFEFEF;
 	  -webkit-font-smoothing: antialiased;
 	  -moz-osx-font-smoothing: grayscale;
 }
@@ -82,4 +82,4 @@ code {
 
 footer {
 	height: auto;
-	background: #333; }
+	background: #364F6B; }

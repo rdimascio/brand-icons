@@ -259,16 +259,17 @@ class App extends Component {
           <div className='container max-width flex justify-between items-center'>
             <div className='site-logo'>
               <a href='/' className='custom-logo-link'>
-                <h1>Brand Icons</h1>
+                <img src="/logo.svg" width="300" alt="Logo" />
               </a>
             </div>
-            <div className='menu-primary-container flex items-center justify-center' />
-            <div className='flex items-center'>
-              <nav id='share' className='social-nav nav flex items-center justify-end'>
+            <div className='menu-primary-container flex items-start justify-center' />
+            <div className='flex'>
+              <nav id='share' className='social-nav nav items-start flex justify-end'>
                 <div className='menu-social-container'>
 
                   <ul className='social-menu header-font medium smooth gray h5 list-reset'>
-                    <li><a href='https://github.com/rdimascio/brand-icons' target='_blank' rel='noopener noreferrer'><img src='https://cdn.brandicons.org/icons/github.svg' width='22' alt='View us on GitHub' /></a></li>
+                    <li><a href="#">🤔 How it Works</a></li>
+                    <li><a href="https://github.com/rdimascio/icons/issues/new" target="_blank" rel="noopener noreferrer">👉 Request an Icon</a></li>
                   </ul>
 
                 </div>
@@ -285,7 +286,7 @@ class App extends Component {
               value={this.state.searchString}
               ref='search'
               onChange={this.handleChange}
-              placeholder='Search by brand name'
+              placeholder='Search Brands'
             />
           </form>
         </div>
