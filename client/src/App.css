@@ -89,7 +89,7 @@
     list-style: none; }
 
 .hero_section {
-    min-height: 90vh;
+    min-height: 50vh;
     background: url(/background.svg) center center no-repeat / cover; }
     @media (min-width: 565px) {
         .hero_section {
@@ -209,5 +209,15 @@
 #revue-embed {
     margin: 4rem 0rem; }
 
+@media (max-width: 920px) {
+    .social-menu {
+        display: none; } }
 
+@media (max-width: 420px) {
+    .site-logo img {
+        width: 200px; } }
+    
+@media (min-width: 921px) {
+    .mobile-menu img {
+        display: none; } }
 
