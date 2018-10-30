@@ -266,12 +266,10 @@ class App extends Component {
             <div className='flex'>
               <nav id='share' className='social-nav nav items-start flex justify-end'>
                 <div className='menu-social-container'>
-                  <div className='mobile-menu'><img src="/navigation.svg" width="40" alt="Navigation icon" /></div>
                   <ul className='social-menu header-font medium smooth gray h5 list-reset'>
                     <li><a href="#"><span role="img" aria-label="How it Works">🤔</span> How it Works</a></li>
                     <li><a href="https://github.com/rdimascio/icons/issues/new" target="_blank" rel="noopener noreferrer"><span role="img" aria-label="Request an Icon">👉</span> Request an Icon</a></li>
                   </ul>
-
                 </div>
               </nav>
             </div>
