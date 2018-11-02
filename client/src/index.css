@@ -81,5 +81,5 @@ code {
     word-wrap: normal !important; }
 
 footer {
-	height: auto;
-	background: #364F6B; }
+	height: 5rem;
+	/* background: #364F6B; */ }

@@ -13,9 +13,19 @@ let icons = [
     'tags': 'design'
   },
   {
+    'title': 'Airbnb',
+    'path': 'airbnb',
+    'tags': 'marketplace'
+  },
+  {
+    'title': 'Airtable',
+    'path': 'airtable',
+    'tags': 'tech'
+  },
+  {
     'title': 'Amazon',
     'path': 'amazon',
-    'tags': 'e-commerce'
+    'tags': 'marketplace'
   },
   {
     'title': 'American Express',
@@ -81,6 +91,11 @@ let icons = [
     'title': 'Google',
     'path': 'google',
     'tags': 'tech'
+  },
+  {
+    'title': 'Hacker News',
+    'path': 'hackernews',
+    'tags': 'social'
   },
   {
     'title': 'Illustrator',
@@ -267,8 +282,10 @@ class App extends Component {
               <nav id='share' className='social-nav nav items-start flex justify-end'>
                 <div className='menu-social-container'>
                   <ul className='social-menu header-font medium smooth gray h5 list-reset'>
-                    <li><a href="#"><span role="img" aria-label="How it Works">🤔</span> How it Works</a></li>
-                    <li><a href="https://github.com/rdimascio/icons/issues/new" target="_blank" rel="noopener noreferrer"><span role="img" aria-label="Request an Icon">👉</span> Request an Icon</a></li>
+                    <li><a href='https://twitter.com/intent/tweet?text=Brand%20Icons%20%E2%80%93%20open%20source%20brand%20icon%20SVGs%20free%20to%20use%20for%20your%20next%20project%20by%20%40dimasc_io%20https%3A%2F%2Fbrandicons.org' target="_blank" rel="noopener noreferrer">Tweet</a></li>
+                    <li><a href='https://www.buymeacoffee.com/dimascio' target="_blank" rel="noopener noreferrer">Donate</a></li>
+                    <li><a href='https://github.com/rdimascio/icons/' target="_blank" rel="noopener noreferrer">Usage</a></li>
+                    <li><a href='https://github.com/rdimascio/icons/' target="_blank" rel="noopener noreferrer">GitHub</a></li>
                   </ul>
                 </div>
               </nav>
@@ -276,9 +293,13 @@ class App extends Component {
           </div>
         </header>
         <div className='flex justify-center items-center text-center hero_section'>
-          <form>
-            <h1>A Curated Collection of Brand Icons</h1>
-            <p>Download or link to any brand SVG for free. An open-source project maintained by <a href='https://twitter.com/intent/follow?screen_name=dimasc_io' target='_blank' rel='noopener noreferrer'>@dimasc_io</a></p>
+            <div className="hero__content">
+              <h1>Open Source Collection of Brand Icon SVGs</h1>
+              <p>100% free to use on your next project or website.</p>
+              <a className='hero__content--button' id='get-started' href='https://github.com/rdimascio/icons/' target="_blank" rel="noopener noreferrer">Get Started</a>&nbsp;<a className='hero__content--button' id='download' href='/icons.zip'>Download</a>
+            </div>
+        </div>
+        <div className="search flex justify-center items-center">
             <input
               type='text'
               value={this.state.searchString}
@@ -286,7 +307,6 @@ class App extends Component {
               onChange={this.handleChange}
               placeholder='Search Brands'
             />
-          </form>
         </div>
         <div className='grid justify-start items-center'>
           <div className='brand__images brand__images_grid'>
@@ -306,7 +326,8 @@ class App extends Component {
           </div>
         </div>
         <footer className='flex justify-center'>
-          <div className='text-center flex justify-center items-center subscibe__form'>
+            <p className='madeby'>made by <a href='https://twitter.com/intent/follow?screen_name=dimasc_io' target="_blank" rel="noopener noreferrer"> @dimasc_io</a></p>
+          {/* <div className='text-center flex justify-center items-center subscibe__form'>
             <div id='revue-embed'>
               <h1 className='subscribe__header'>Get new icons in your inbox</h1>
               <form action='https://www.getrevue.co/profile/brandicons/add_subscriber' method='post' id='revue-form' name='revue-form' >
@@ -318,9 +339,8 @@ class App extends Component {
                 </div>
               </form>
             </div>
-          </div>
+          </div> */}
         </footer>
-        <div className='mobile-menu'></div>
       </div>
     )
   }

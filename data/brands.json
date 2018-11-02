@@ -17,9 +17,25 @@
 			"black": "icons/dark/aftereffects.svg"
 		},
 		{
+			"title": "Airbnb",
+			"path": "airbnb",
+			"tags": "marketplace",
+			"color": "icons/color/airbnb.svg",
+			"white": "icons/light/airbnb.svg",
+			"black": "icons/dark/airbnb.svg"
+		},
+		{
+			"title": "Airtable",
+			"path": "airtable",
+			"tags": "tech",
+			"color": "icons/color/airtable.svg",
+			"white": "icons/light/airtable.svg",
+			"black": "icons/dark/airtable.svg"
+		},
+		{
 			"title": "Amazon",
 			"path": "amazon",
-			"tags": "e-commerce",
+			"tags": "marketplace",
 			"color": "icons/color/amazon.svg",
 			"white": "icons/light/amazon.svg",
 			"black": "icons/dark/amazon.svg"
@@ -127,6 +143,14 @@
 			"color": "icons/color/google.svg",
 			"white": "icons/light/google.svg",
 			"black": "icons/dark/google.svg"
+		},
+		{
+			"title": "Hacker News",
+			"path": "hackernews",
+			"tags": "social",
+			"color": "icons/color/hackernews.svg",
+			"white": "icons/light/hackernews.svg",
+			"black": "icons/dark/hackernews.svg"
 		},
 		{
 			"title": "Illustrator",
