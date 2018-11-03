@@ -57,6 +57,14 @@
 			"black": "icons/dark/android.svg"
 		},
 		{
+			"title": "Angel List",
+			"path": "angellist",
+			"tags": "social",
+			"color": "icons/color/angellist.svg",
+			"white": "icons/light/angellist.svg",
+			"black": "icons/dark/angellist.svg"
+		},
+		{
 			"title": "Apple",
 			"path": "apple",
 			"tags": "tech",
@@ -81,12 +89,52 @@
 			"black": "icons/dark/aws.svg"
 		},
 		{
+			"title": "Behance",
+			"path": "behance",
+			"tags": "social",
+			"color": "icons/color/behance.svg",
+			"white": "icons/light/behance.svg",
+			"black": "icons/dark/behance.svg"
+		},
+		{
+			"title": "Bitbucket",
+			"path": "bitbucket",
+			"tags": "dev",
+			"color": "icons/color/bitbucket.svg",
+			"white": "icons/light/bitbucket.svg",
+			"black": "icons/dark/bitbucket.svg"
+		},
+		{
 			"title": "Bitcoin",
 			"path": "bitcoin",
 			"tags": "crypto",
 			"color": "icons/color/bitcoin.svg",
 			"white": "icons/light/bitcoin.svg",
 			"black": "icons/dark/bitcoin.svg"
+		},
+		{
+			"title": "Buffer",
+			"path": "buffer",
+			"tags": "tech",
+			"color": "icons/color/buffer.svg",
+			"white": "icons/light/buffer.svg",
+			"black": "icons/dark/buffer.svg"
+		},
+		{
+			"title": "Chrome",
+			"path": "chrome",
+			"tags": "tech",
+			"color": "icons/color/chrome.svg",
+			"white": "icons/light/chrome.svg",
+			"black": "icons/dark/chrome.svg"
+		},
+		{
+			"title": "Cloudflare",
+			"path": "cloudflare",
+			"tags": "tech",
+			"color": "icons/color/cloudflare.svg",
+			"white": "icons/light/cloudflare.svg",
+			"black": "icons/dark/cloudflare.svg"
 		},
 		{
 			"title": "Codepen",
@@ -105,12 +153,36 @@
 			"black": "icons/dark/creativecloud.svg"
 		},
 		{
+			"title": "CSS3",
+			"path": "css3",
+			"tags": "dev",
+			"color": "icons/color/css3.svg",
+			"white": "icons/light/css3.svg",
+			"black": "icons/dark/css3.svg"
+		},
+		{
+			"title": "Digital Ocean",
+			"path": "digitalocean",
+			"tags": "dev",
+			"color": "icons/color/digitalocean.svg",
+			"white": "icons/light/digitalocean.svg",
+			"black": "icons/dark/digitalocean.svg"
+		},
+		{
 			"title": "Diner's Club",
 			"path": "dinersclub",
 			"tags": "credit card",
 			"color": "icons/color/dinersclub.svg",
 			"white": "icons/light/dinersclub.svg",
 			"black": "icons/dark/dinersclub.svg"
+		},
+		{
+			"title": "Discord",
+			"path": "discord",
+			"tags": "social",
+			"color": "icons/color/discord.svg",
+			"white": "icons/light/discord.svg",
+			"black": "icons/dark/discord.svg"
 		},
 		{
 			"title": "Discover",
@@ -121,12 +193,35 @@
 			"black": "icons/dark/discover.svg"
 		},
 		{
+			"title": "Drift",
+			"path": "drift",
+			"tags": "tech",
+			"color": "icons/color/drift.svg",
+			"white": "icons/light/drift.svg",
+			"black": "icons/dark/drift.svg"
+		},
+		{
+			"title": "Dropbox",
+			"path": "dropbox",
+			"tags": "tech",
+			"color": "icons/color/dropbox.svg",
+			"white": "icons/light/dropbox.svg",
+			"black": "icons/dark/dropbox.svg"
+		},
+		{
 			"title": "Facebook",
 			"path": "facebook",
 			"tags": "social",
 			"color": "icons/color/facebook.svg",
 			"white": "icons/light/facebook.svg",
 			"black": "icons/dark/facebook.svg"
+		},{
+			"title": "Firefox",
+			"path": "firefox",
+			"tags": "tech",
+			"color": "icons/color/firefox.svg",
+			"white": "icons/light/firefox.svg",
+			"black": "icons/dark/firefox.svg"
 		},
 		{
 			"title": "GitHub",
@@ -135,6 +230,14 @@
 			"color": "icons/color/github.svg",
 			"white": "icons/light/github.svg",
 			"black": "icons/dark/github.svg"
+		},
+		{
+			"title": "Gmail",
+			"path": "gmail",
+			"tags": "tech",
+			"color": "icons/color/gmail.svg",
+			"white": "icons/light/gmail.svg",
+			"black": "icons/dark/gmail.svg"
 		},
 		{
 			"title": "Google",
@@ -151,6 +254,14 @@
 			"color": "icons/color/hackernews.svg",
 			"white": "icons/light/hackernews.svg",
 			"black": "icons/dark/hackernews.svg"
+		},
+		{
+			"title": "HTML5",
+			"path": "html5",
+			"tags": "dev",
+			"color": "icons/color/html5.svg",
+			"white": "icons/light/html5.svg",
+			"black": "icons/dark/html5.svg"
 		},
 		{
 			"title": "Illustrator",
@@ -183,6 +294,14 @@
 			"color": "icons/color/intercom.svg",
 			"white": "icons/light/intercom.svg",
 			"black": "icons/dark/intercom.svg"
+		},
+		{
+			"title": "InVision",
+			"path": "invision",
+			"tags": "design",
+			"color": "icons/color/invision.svg",
+			"white": "icons/light/invision.svg",
+			"black": "icons/dark/invision.svg"
 		},
 		{
 			"title": "JCB",

@@ -38,6 +38,11 @@ let icons = [
     'tags': 'tech'
   },
   {
+    'title': 'Angel List',
+    'path': 'angellist',
+    'tags': 'social'
+  },
+  {
     'title': 'Apple',
     'path': 'apple',
     'tags': 'tech'
@@ -53,9 +58,34 @@ let icons = [
     'tags': 'dev'
   },
   {
+    'title': 'Behance',
+    'path': 'behance',
+    'tags': 'social'
+  },
+  {
+    'title': 'Bitbucket',
+    'path': 'bitbucket',
+    'tags': 'tech'
+  },
+  {
     'title': 'Bitcoin',
     'path': 'bitcoin',
     'tags': 'crypto'
+  },
+  {
+    'title': 'Buffer',
+    'path': 'buffer',
+    'tags': 'tech'
+  },
+  {
+    'title': 'Chrome',
+    'path': 'chrome',
+    'tags': 'tech'
+  },
+  {
+    'title': 'Cloudflare',
+    'path': 'cloudflare',
+    'tags': 'tech'
   },
   {
     'title': 'Codepen',
@@ -68,9 +98,24 @@ let icons = [
     'tags': 'design'
   },
   {
+    'title': 'CSS3',
+    'path': 'css3',
+    'tags': 'dev'
+  },
+  {
+    'title': "Digital Ocean",
+    'path': 'digitalocean',
+    'tags': 'dev'
+  },
+  {
     'title': "Diner's Club",
     'path': 'dinersclub',
     'tags': 'credit card'
+  },
+  {
+    'title': 'Discord',
+    'path': 'discord',
+    'tags': 'social'
   },
   {
     'title': 'Discover',
@@ -78,14 +123,34 @@ let icons = [
     'tags': 'credit card'
   },
   {
+    'title': 'Drift',
+    'path': 'drift',
+    'tags': 'tech'
+  },
+  {
+    'title': 'Dropbox',
+    'path': 'dropbox',
+    'tags': 'tech'
+  },
+  {
     'title': 'Facebook',
     'path': 'facebook',
     'tags': 'social'
   },
   {
+    'title': 'Firefox',
+    'path': 'firefox',
+    'tags': 'tech'
+  },
+  {
     'title': 'GitHub',
     'path': 'github',
     'tags': 'dev'
+  },
+  {
+    'title': 'Gmail',
+    'path': 'gmail',
+    'tags': 'tech'
   },
   {
     'title': 'Google',
@@ -96,6 +161,11 @@ let icons = [
     'title': 'Hacker News',
     'path': 'hackernews',
     'tags': 'social'
+  },
+  {
+    'title': 'HTML5',
+    'path': 'html5',
+    'tags': 'dev'
   },
   {
     'title': 'Illustrator',
@@ -116,6 +186,11 @@ let icons = [
     'title': 'Intercom',
     'path': 'intercom',
     'tags': 'tech'
+  },
+  {
+    'title': 'InVision',
+    'path': 'invision',
+    'tags': 'design'
   },
   {
     'title': 'JCB',
