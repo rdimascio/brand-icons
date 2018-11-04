@@ -283,6 +283,11 @@ let icons = [
     'tags': 'payment'
   },
   {
+    'title': 'Telegram',
+    'path': 'telegram',
+    'tags': 'social'
+  },
+  {
     'title': 'Tinder',
     'path': 'tinder',
     'tags': 'social'

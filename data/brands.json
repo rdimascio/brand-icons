@@ -449,14 +449,13 @@
 			"black": "icons/dark/stripe.svg"
 		},
 		{
-			"title": "Tesla",
-			"path":	"tesla",
-			"tags": "vehicles",
-			"color": "icons/color/tesla.svg",
-			"white": "icons/light/tesla.svg",
-			"black": "icons/dark/tesla.svg"
+			"title": "Telegram",
+			"path":	"telegram",
+			"tags": "social",
+			"color": "icons/color/telegram.svg",
+			"white": "icons/light/telegram.svg",
+			"black": "icons/dark/telegram.svg"
 		},
-		
 		{
 			"title": "Tinder",
 			"path": "tinder",
