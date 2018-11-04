@@ -208,9 +208,24 @@ let icons = [
     'tags': 'social'
   },
   {
+    'title': 'Mailchimp',
+    'path': 'mailchimp',
+    'tags': 'tech'
+  },
+  {
     'title': 'Master Card',
     'path': 'mastercard',
     'tags': 'credit card'
+  },
+  {
+    'title': 'Medium',
+    'path': 'medium',
+    'tags': 'tech'
+  },
+  {
+    'title': 'Meetup',
+    'path': 'meetup',
+    'tags': 'social'
   },
   {
     'title': 'Netflix',

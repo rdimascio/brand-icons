@@ -215,7 +215,8 @@
 			"color": "icons/color/facebook.svg",
 			"white": "icons/light/facebook.svg",
 			"black": "icons/dark/facebook.svg"
-		},{
+		},
+		{
 			"title": "Firefox",
 			"path": "firefox",
 			"tags": "tech",
@@ -328,12 +329,36 @@
 			"black": "icons/dark/linkedin.svg"
 		},
 		{
+			"title": "Mailchimp",
+			"path": "mailchimp",
+			"tags": "tech",
+			"color": "icons/color/mailchimp.svg",
+			"white": "icons/light/mailchimp.svg",
+			"black": "icons/dark/mailchimp.svg"
+		},
+		{
 			"title": "Master Card",
 			"path": "mastercard",
 			"tags": "credit card",
 			"color": "icons/color/mastercard.svg",
 			"white": "icons/light/mastercard.svg",
 			"black": "icons/dark/mastercard.svg"
+		},
+		{
+			"title": "Medium",
+			"path": "medium",
+			"tags": "tech",
+			"color": "icons/color/medium.svg",
+			"white": "icons/light/medium.svg",
+			"black": "icons/dark/medium.svg"
+		},
+		{
+			"title": "Meetup",
+			"path": "meetup",
+			"tags": "social",
+			"color": "icons/color/meetup.svg",
+			"white": "icons/light/meetup.svg",
+			"black": "icons/dark/meetup.svg"
 		},
 		{
 			"title": "netflix",
